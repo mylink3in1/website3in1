@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak WhatsApp & Telegram Cia Unicorn</title>
+  <meta name="description" content="Halaman resmi kontak WhatsApp & Telegram Unicorn. Klik tombol di bawah untuk chat langsung dan dapatkan informasi terbaru.">
+  <meta name="robots" content="index, follow">
+  <style>
+    /* ===== Body dengan unicorn gradient animasi ===== */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+
+      padding-bottom: 80px;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* ===== Marquee ===== */
+    .marquee {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      background: rgba(0,0,0,0.6);
+      padding: 10px 0;
+    }
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll 25s linear infinite;
+      font-size: 24px;
+      font-weight: bold;
+      color: yellow;
+    }
+    @keyframes scroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* ===== Judul ===== */
+    h1 {
+      margin: 20px 0;
+      font-size: 42px;
+      font-weight: bold;
+      text-shadow: 0 0 6px black, 0 0 12px pink, 0 0 25px hotpink;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+        text-shadow: 0 0 6px rgb(68, 59, 59), 0 0 15px pink, 0 0 25px hotpink;
+      }
+      50% {
+        opacity: 0.4;
+        text-shadow: 0 0 3px black, 0 0 6px pink;
+      }
+    }
+
+    /* ===== Container tombol ===== */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 600px;
+      margin: 20px auto 40px auto;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 15px;
+      border-radius: 15px;
+      text-decoration: none;
+      color: white;
+      transition: transform 0.3s, box-shadow 0.3s;
+      animation: zoomIn 1s ease forwards;
+      opacity: 0;
+    }
+    @keyframes zoomIn {
+      0% { transform: scale(0.5); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .item img {
+      width: 100%;
+      max-width: 180px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(255,255,255,0.4);
+      transition: transform 0.4s ease;
+    }
+    .item:hover img {
+      transform: rotate(5deg) scale(1.05);
+    }
+
+    .item p {
+      margin-top: 12px;
+      font-size: 22px;
+      font-weight: bold;
+      text-shadow: 0 0 4px rgba(255,255,255,0.7);
+      animation: updown 2s infinite ease-in-out;
+    }
+    @keyframes updown {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(255,255,255,0.3);
+    }
+
+    /* ===== Menu bawah ===== */
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      background: rgba(0,0,0,0.6);
+      padding: 10px 0;
+      border-top: 2px solid lime;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+    }
+    .menu a { text-decoration: none; color: white; flex: 1; }
+    .menu-item { display: flex; flex-direction: column; align-items: center; font-size: 14px; transition: 0.3s; }
+    .menu-item:hover { transform: scale(1.1); color: yellow; }
+    .menu-item i { font-size: 20px; margin-bottom: 5px; }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="marquee">
+    <span>📢 Selamat datang di halaman WhatsApp & Telegram Unicorn! Klik logo di bawah untuk chat langsung & dapatkan welcome bonus buat new member 🥰🥰</span>
+  </div>
+
+  <h1>🥰 CIA Unicorn 🥰</h1>
+
+  <p>Gunakan tombol WhatsApp atau Telegram di bawah untuk menghubungi Cia secara langsung. Ikuti panduan welcome bonus terbaru.</p>
+
+  <div class="container">
+    <a class="item" href="https://fuyuh.com/unicornbn" target="_blank">
+      <img src="photo_2026-02-03_01-42-02.jpg" alt="WhatsApp Unicorn">
+      <p>WhatsApp Unicorn</p>
+    </a>
+    <a class="item" href="https://tinyurl.com/uniclub99" target="_blank">
+      <img src="photo_2026-02-03_01-42-02.jpg" alt="WhatsApp Unicorn">
+      <p>WhatsApp Unicorn</p>
+    </a>
+    <a class="item" href="https://t.me/Ciauni77" target="_blank">
+      <img src="photo_2026-02-03_01-42-02.jpg" alt="Telegram Unicorn">
+      <p>Telegram Unicorn - hubungi Cia</p>
+    </a>
+    <a class="item" href="https://t.me/Unicornbnd" target="_blank">
+      <img src="photo_2026-01-08_15-07-05.jpg" alt="Channel Payout">
+      <p>Channel Payout - info terbaru</p>
+    </a>
+  </div>
+
+  <div class="menu">
+    <a href="https://t.me/Ciauni77" target="_blank">
+      <div class="menu-item">
+        <i class="fa fa-home"></i>
+        <span>Telegram</span>
+      </div>
+    </a>
+    <a href="https://t.me/Ciauni77" target="_blank">
+      <div class="menu-item">
+        <i class="fa fa-user-plus"></i>
+        <span>Daftar</span>
+      </div>
+    </a>
+    <a href="https://t.me/Ciauni77" target="_blank">
+      <div class="menu-item">
+        <i class="fa fa-comment"></i>
+        <span>Chat</span>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
